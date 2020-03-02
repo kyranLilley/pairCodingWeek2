@@ -5,6 +5,6 @@ var numThree = 15;
 var numFour = 20;
 var totalNumber;
 
-totalNumber = numOne / numTwo + numThree / numOne - numFour / numFour;
+totalNumber = (numOne / numTwo + numThree) / numOne// - numFour % numFour;
 
-console.log(totalNumber)
+console.log( "5 / 10 + 15 / 5 - 20 remainder 20 = " + totalNumber)
