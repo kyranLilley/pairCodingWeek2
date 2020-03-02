@@ -18,7 +18,3 @@ console.log(divide)
 console.log(remainder + "%")
 //this line will multiply first number(15) by second number(20) = 300.
 console.log(times)
-
-//general concat of both variables.
-console.log(firstNumber + secondNumber)
-
