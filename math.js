@@ -8,4 +8,4 @@ var totalNumber;
 //Equation of all these numbers below.
 totalNumber = ((numOne / numTwo + numThree) / numOne - numFour) % numFour;
 
-console.log( "5 / 10 + 1557 / 5 - 20 remainder 20 = " + totalNumber)
+console.log( "5 / 10 + 1557 / 5 - 20 remainder 20 = " + totalNumber);
