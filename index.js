@@ -4,21 +4,21 @@ var secondNumber = 20;
 var minus = firstNumber - secondNumber;
 var plus = firstNumber + secondNumber;
 var divide = firstNumber / secondNumber;
-var remainder = firstNumber % secondNumber;
+var remainder = secondNumber % firstNumber;
 var times = firstNumber * secondNumber;
 
 
 //this line of code should 15 minus 20 should be -5.
-console.log(minus);
+console.log( "15 - 20 = " + minus);
 //this line of code should  15 plus 20 should be = 35.
-console.log(plus);
+console.log( "15 + 20 = " + plus);
 //printing this equation to log , 15 divided by 20. 
-console.log(divide);
+console.log( "15 / 20 = " + divide);
 //calculating the remainder
-console.log(remainder + "%");
+console.log( "20 % 15 , reminder = " + remainder);
 //this line will multiply first number(15) by second number(20) = 300.
-console.log(times);
+console.log( "15 * 20 = " + times);
 
 
-
-console.log(minus , plus , divide , remainder , times);
+//all the equations in one line.
+console.log( "Concatination of all variable equations." + minus , plus , divide , remainder , times);
